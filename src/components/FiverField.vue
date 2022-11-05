@@ -14,7 +14,7 @@ const props = defineProps<FeldProps>();
 
 <style scoped>
 .feld {
-  border-color: black;
+  border-color: lightgrey;
   border-width: 1px;
   border-style: solid;
 }

@@ -3,10 +3,30 @@ import FiverField from "./components/FiverField.vue";
 </script>
 
 <template>
-  <main>
-    <FiverField :filled="3" />
-    <FiverField :filled="4" />
-    <FiverField :filled="2" />
+  <nav class="navbar navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Blitzblick</a>
+    </div>
+  </nav>
+
+  <main class="container-sm">
+    <div class="row g-0">
+      <div class="col-6">
+        <FiverField :filled="3" />
+      </div>
+      <div class="col-6">
+        <FiverField :filled="4" />
+      </div>
+    </div>
+
+    <div class="row g-0">
+      <div class="col-6">
+        <FiverField :filled="3" />
+      </div>
+      <div class="col-6">
+        <FiverField :filled="4" />
+      </div>
+    </div>
   </main>
 </template>
 
